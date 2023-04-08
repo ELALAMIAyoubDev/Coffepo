@@ -18,8 +18,31 @@
   margin: auto;
 }
 
-.about_content__para {
+.about_content {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.about_content__text {
+  width: 65%;
+}
+
+.about_content__text__title {
+  font-size: 6rem;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.about_content__text__para {
+  font-size: 3rem;
+  text-indent: 10rem;
 }
 
 .about_content__img {
+  width: 30rem;
+  border-radius: 12rem 2rem 12rem 2rem;
+  overflow: hidden;
 }
