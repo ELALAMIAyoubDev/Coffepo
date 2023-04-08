@@ -1,0 +1,59 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/home.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -2;
+}
+
+.main::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(0 0 0 / 40%);
+}
+
+.container {
+  width: 50%;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.list_icons {
+  color: white;
+  height: 8rem;
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+}
+
+.list_icons__list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.icon_container {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.icon_container:hover {
+  color: #c5925e30;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+}
