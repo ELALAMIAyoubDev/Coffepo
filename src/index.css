@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #fff;
+  color: #e8e7cf;
   display: inline-block;
   text-decoration: none;
 }
@@ -40,10 +40,4 @@ textarea {
 
 button {
   cursor: pointer;
-}
-
-.container {
-  max-width: 102rem;
-  width: 95%;
-  margin: auto;
 }

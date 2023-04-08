@@ -1,20 +1,25 @@
-.product_section {
+.about_section {
   height: 90vh;
-  background-color: #802f20;
+  background-color: #e8e7cf;
 }
 
-.product_main {
+.about_main {
   height: 100%;
   width: 90%;
   padding-top: 2rem;
   margin: auto;
 }
 
-.product_main__title {
+.about_main__title {
   text-align: center;
   font-size: 7rem;
   text-transform: capitalize;
   width: fit-content;
   margin: auto;
-  color: #e8e7cf;
+}
+
+.about_content__para {
+}
+
+.about_content__img {
 }

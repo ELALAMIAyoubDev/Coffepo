@@ -23,12 +23,12 @@ const HomeComponent = () => {
     },
   ];
   return (
-    <main className={style.main}>
-      <section className={style.container}>
+    <section id="home" className={style.home}>
+      <div className={style.home_text}>
         <h1>All Love Coffe</h1>
         <p>So we made coffe So We made love </p>
-      </section>
-      <section className={style.list_icons}>
+      </div>
+      <div className={style.list_icons}>
         <ul className={style.list_icons__list}>
           {lists.map((list) => (
             <li className={style.icon_container} key={list.id}>
@@ -36,8 +36,8 @@ const HomeComponent = () => {
             </li>
           ))}
         </ul>
-      </section>
-    </main>
+      </div>
+    </section>
   );
 };
 

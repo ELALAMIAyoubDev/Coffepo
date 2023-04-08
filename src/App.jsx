@@ -1,11 +1,20 @@
 import "./App.css";
-import { HeaderComponent, HomeComponent } from "./components";
+import {
+  AboutComponent,
+  HeaderComponent,
+  HomeComponent,
+  ProductComponent,
+} from "./components";
 
 function App() {
   return (
     <>
       <HeaderComponent />
-      <HomeComponent />
+      <main>
+        <HomeComponent />
+        <AboutComponent />
+        <ProductComponent />
+      </main>
     </>
   );
 }

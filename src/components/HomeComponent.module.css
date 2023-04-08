@@ -1,52 +1,56 @@
-.main {
-  width: 100vw;
+.home {
   height: 100vh;
-  background-image: url(../assets/home.jpg);
+  background: url(../assets/home.jpg);
   background-size: cover;
   background-position: center center;
+
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: -2;
 }
 
-.main::before {
+.home::before {
   content: "";
   position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background: rgba(0 0 0 / 40%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
-.container {
+.home_text {
   width: 50%;
   text-align: center;
   font-size: 2rem;
-  color: #fff;
+  color: #e8e7cf;
+  z-index: 1;
+}
+
+.home_text h1 {
+  font-size: 3.6rem;
 }
 
 .list_icons {
-  color: white;
-  height: 8rem;
   position: absolute;
   bottom: 5rem;
   right: 5rem;
 }
 
 .list_icons__list {
-  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  z-index: 1000;
+  gap: 1rem;
+  z-index: 1;
 }
 
 .icon_container {
   width: 2rem;
   height: 2rem;
+  color: #e8e7cf;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .icon_container:hover {
